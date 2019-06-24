@@ -11,6 +11,8 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 import placeholder from '../assets/images/placeholder.png'
+import fuzzyBear from '../assets/images/fuzzy_bear.jpg'
+import fuzzyBear2 from '../assets/images/fuzzy_bear2.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -73,10 +75,10 @@ class HomeIndex extends React.Component {
             </section>
           </div>
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${pic01})` }}>
+            <article style={{ backgroundImage: `url(${fuzzyBear2})` }}>
               <header className="major">
-                <h3>Aliquam</h3>
-                <p>Ipsum dolor sit amet</p>
+                <h3>Fuzzy Bear Ministry</h3>
+                <p>Custom Website</p>
               </header>
               <Link to="/landing" className="link primary" />
             </article>
