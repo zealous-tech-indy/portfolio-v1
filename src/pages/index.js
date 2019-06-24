@@ -80,7 +80,7 @@ class HomeIndex extends React.Component {
                 <h3>Fuzzy Bear Ministry</h3>
                 <p>Custom Website</p>
               </header>
-              <Link to="/landing" className="link primary" />
+              <Link to="/fuzzy-bear-daycare" className="link primary" />
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">

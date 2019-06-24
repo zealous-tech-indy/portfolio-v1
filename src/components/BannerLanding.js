@@ -1,20 +1,23 @@
 import React from 'react'
 
-const BannerLanding = props => (
-  <section id="banner" className="style2">
-    <div className="inner">
-      <header className="major">
-        <h1>Landing</h1>
-      </header>
-      <div className="content">
-        <p>
-          Lorem ipsum dolor sit amet nullam consequat
-          <br />
-          sed veroeros. tempus adipiscing nulla.
-        </p>
+const BannerLanding = props => {
+  const { title, desc1, desc2 } = props
+  return (
+    <section id="banner" className="style2">
+      <div className="inner">
+        <header className="major">
+          <h1>{title}</h1>
+        </header>
+        <div className="content">
+          <p>
+            {desc1}
+            <br />
+            {desc2}
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
-)
+    </section>
+  )
+}
 
 export default BannerLanding
