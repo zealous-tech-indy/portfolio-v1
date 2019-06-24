@@ -1,9 +1,11 @@
 import React from 'react'
+import logo from '../assets/images/zealous-logo.png'
 
 const Banner = props => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
+        <img src={logo} alt="Zealous Logo" style={{ height: '2em' }} />
         <h1>We are Zealous Tech</h1>
       </header>
       <div className="content">
@@ -14,7 +16,7 @@ const Banner = props => (
         </p>
         <ul className="actions">
           <li>
-            <a href="#one" className="button next scrolly">
+            <a href="#contact" className="button next scrolly">
               Get in Contact
             </a>
           </li>
