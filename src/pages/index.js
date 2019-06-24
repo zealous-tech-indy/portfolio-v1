@@ -32,38 +32,45 @@ class HomeIndex extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <div className="box alt">
-            <div className="grid-wrapper">
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-              <div className="col-4">
-                <span className="image fit">
-                  <img src={placeholder} alt="" />
-                </span>
-              </div>
-            </div>
+            {/* <div className="grid-wrapper"> */}
+            <section id="one" className="tiles">
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Henok Alem</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Iesha Duff</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Jordan Mannfeld</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Mason Seiler</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Jon Jeffries</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+              <article style={{ backgroundImage: `url(${placeholder})` }}>
+                <header className="major">
+                  <h3>Manasa Patibandla</h3>
+                  <p>Developer</p>
+                </header>
+              </article>
+            </section>
           </div>
           <section id="one" className="tiles">
             <article style={{ backgroundImage: `url(${pic01})` }}>
