@@ -1,4 +1,6 @@
-# gatsby-starter-forty
+# Zealous Tech Portfolio
+
+In development, this deploys to https://zealousindy.netlify.com/
 
 **This is a starter for Gatsby.js V2.**
 
