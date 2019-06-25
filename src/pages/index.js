@@ -19,7 +19,7 @@ class HomeIndex extends React.Component {
     return (
       <Layout>
         <Helmet
-          title="Gatsby Starter - Forty"
+          title="Zealous"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -29,7 +29,7 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
-          <h2>Meet the Team</h2>
+          <h2 style={{padding: '1em 0 0 3.5em'}}>Meet the Team</h2>
           <span className="image fit">
             <img src={pic03} alt="" />
           </span>
