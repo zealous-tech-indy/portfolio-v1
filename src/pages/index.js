@@ -48,7 +48,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={henok} alt="" />
+                    <img
+                      className="avatar"
+                      src={henok}
+                      style={{ borderColor: '#6fc3df' }}
+                      alt="Henok"
+                    />
                     <h3 className="avatar-name">Henok Alem</h3>
                   </div>
                 </span>
@@ -56,7 +61,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={iesha} alt="" />
+                    <img
+                      className="avatar"
+                      src={iesha}
+                      style={{ borderColor: '#8d82c4' }}
+                      alt="Iesha"
+                    />
                     <h3 className="avatar-name">Iesha Duff</h3>
                   </div>
                 </span>
@@ -64,7 +74,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={jordan} alt="" />
+                    <img
+                      className="avatar"
+                      src={jordan}
+                      style={{ borderColor: '#ec8d81' }}
+                      alt="Jordan"
+                    />
                     <h3 className="avatar-name">Jordan Mannfeld</h3>
                   </div>
                 </span>
@@ -72,7 +87,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={jon} alt="" />
+                    <img
+                      className="avatar"
+                      src={jon}
+                      style={{ borderColor: '#e7b788' }}
+                      alt="Jon"
+                    />
                     <h3 className="avatar-name">Jon Jeffries</h3>
                   </div>
                 </span>
@@ -80,7 +100,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={manasa} alt="" />
+                    <img
+                      className="avatar"
+                      src={manasa}
+                      style={{ borderColor: '#8ea9e8' }}
+                      alt="Manasa"
+                    />
                     <h3 className="avatar-name">Manasa Patibandla</h3>
                   </div>
                 </span>
@@ -88,7 +113,12 @@ class HomeIndex extends React.Component {
               <div className="col-4">
                 <span className="image fit">
                   <div className="avatar-wrapper">
-                    <img className="avatar" src={mason} alt="" />
+                    <img
+                      className="avatar"
+                      src={mason}
+                      style={{ borderColor: '#87c5a4' }}
+                      alt="Mason"
+                    />
                     <h3 className="avatar-name">Mason Seiler</h3>
                   </div>
                 </span>
