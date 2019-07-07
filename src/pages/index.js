@@ -49,7 +49,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={henok} alt="" />
-                    <h3>Henok Alem</h3>
+                    <h3 className="avatar-name">Henok Alem</h3>
                   </div>
                 </span>
               </div>
@@ -57,7 +57,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={iesha} alt="" />
-                    <h3>Iesha Duff</h3>
+                    <h3 className="avatar-name">Iesha Duff</h3>
                   </div>
                 </span>
               </div>
@@ -65,7 +65,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={jordan} alt="" />
-                    <h3>Jordan Mannfeld</h3>
+                    <h3 className="avatar-name">Jordan Mannfeld</h3>
                   </div>
                 </span>
               </div>
@@ -73,7 +73,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={jon} alt="" />
-                    <h3>Jon Jeffries</h3>
+                    <h3 className="avatar-name">Jon Jeffries</h3>
                   </div>
                 </span>
               </div>
@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={manasa} alt="" />
-                    <h3>Manasa Patibandla</h3>
+                    <h3 className="avatar-name">Manasa Patibandla</h3>
                   </div>
                 </span>
               </div>
@@ -89,7 +89,7 @@ class HomeIndex extends React.Component {
                 <span className="image fit">
                   <div className="avatar-wrapper">
                     <img className="avatar" src={mason} alt="" />
-                    <h3>Mason Seiler</h3>
+                    <h3 className="avatar-name">Mason Seiler</h3>
                   </div>
                 </span>
               </div>
