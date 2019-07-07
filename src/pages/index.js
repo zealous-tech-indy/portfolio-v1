@@ -9,8 +9,15 @@ import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
-import placeholder from '../assets/images/placeholder.png'
 import fuzzyBear from '../assets/images/fuzzy_bear2.jpg'
+import {
+  henok,
+  iesha,
+  jordan,
+  jon,
+  manasa,
+  mason,
+} from '../assets/images/avatars/index'
 
 class HomeIndex extends React.Component {
   render() {
@@ -40,32 +47,50 @@ class HomeIndex extends React.Component {
             <div className="grid-wrapper">
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={henok} alt="" />
+                    <h3>Henok Alem</h3>
+                  </div>
                 </span>
               </div>
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={iesha} alt="" />
+                    <h3>Iesha Duff</h3>
+                  </div>
                 </span>
               </div>
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={jordan} alt="" />
+                    <h3>Jordan Mannfeld</h3>
+                  </div>
                 </span>
               </div>
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={jon} alt="" />
+                    <h3>Jon Jeffries</h3>
+                  </div>
                 </span>
               </div>
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={manasa} alt="" />
+                    <h3>Manasa Patibandla</h3>
+                  </div>
                 </span>
               </div>
               <div className="col-4">
                 <span className="image fit">
-                  <img src={placeholder} alt="" />
+                  <div className="avatar-wrapper">
+                    <img className="avatar" src={mason} alt="" />
+                    <h3>Mason Seiler</h3>
+                  </div>
                 </span>
               </div>
             </div>
