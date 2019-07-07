@@ -66,7 +66,7 @@
 		font-size: 0.8em;
 		font-weight: _font(weight-bold);
 		letter-spacing: _font(letter-spacing-alt);
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 0;
 		text-transform: uppercase;
 	}
 
@@ -131,10 +131,12 @@
 	input[type="url"],
 	select {
 		height: _size(element-height);
+		margin: (_size(element-margin) * 0.5) 0 0 0;
 	}
 
 	textarea {
 		padding: 0.75em 1em;
+		margin: (_size(element-margin) * 0.5) 0 0 0;
 	}
 
 	input[type="checkbox"],

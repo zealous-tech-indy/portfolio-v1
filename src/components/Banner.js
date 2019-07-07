@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../assets/images/zealous-logo.png'
 
-const Banner = props => (
+const Banner = () => (
   <section id="banner" className="major">
     <div className="inner">
       <header className="major">
@@ -10,9 +10,9 @@ const Banner = props => (
       </header>
       <div className="content">
         <p>
-          Indy based Dev Shop specializing in custom solutions for our clients
+          Indy based Dev Shop specializing in custom solutions for our clients.
           <br />
-          Founded, owned and operated by a team of local developers
+          Founded, owned, and operated by a team of local developers.
         </p>
         <ul className="actions">
           <li>

@@ -4,78 +4,74 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 import placeholder from '../assets/images/placeholder.png'
-import fuzzyBear from '../assets/images/fuzzy_bear.jpg'
-import fuzzyBear2 from '../assets/images/fuzzy_bear2.jpg'
+import fuzzyBear from '../assets/images/fuzzy_bear2.jpg'
 
 class HomeIndex extends React.Component {
   render() {
     return (
       <Layout>
         <Helmet
-          title="Zealous"
+          title="Zealous Tech"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            {
+              name: 'description',
+              content:
+                'A place to learn more about Zealous Tech and get in contact.',
+            },
+            {
+              name: 'keywords',
+              content:
+                'zealous, tech, indy, small business, freelance, software',
+            },
           ]}
         />
 
         <Banner />
 
         <div id="main">
-          <h2 style={{padding: '1em 0 0 3.5em'}}>Meet the Team</h2>
-          <span className="image fit">
-            <img src={pic03} alt="" />
-          </span>
+          <h2 style={{ padding: '1em 0 0 3.5em' }}>Meet the Team</h2>
           <div className="box alt">
-            {/* <div className="grid-wrapper"> */}
-            <section id="one" className="tiles">
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Henok Alem</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Iesha Duff</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Jordan Mannfeld</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Mason Seiler</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Jon Jeffries</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-              <article style={{ backgroundImage: `url(${placeholder})` }}>
-                <header className="major">
-                  <h3>Manasa Patibandla</h3>
-                  <p>Developer</p>
-                </header>
-              </article>
-            </section>
+            <div className="grid-wrapper">
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+              <div className="col-4">
+                <span className="image fit">
+                  <img src={placeholder} alt="" />
+                </span>
+              </div>
+            </div>
           </div>
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${fuzzyBear2})` }}>
+            <article style={{ backgroundImage: `url(${fuzzyBear})` }}>
               <header className="major">
                 <h3>Fuzzy Bear Ministry</h3>
                 <p>Custom Website</p>
