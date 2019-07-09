@@ -8,7 +8,7 @@
 
 	#banner {
 		@include vendor('align-items', 'center');
-		@include vendor('background-image', 'url("../images/indy-3.jpg")');
+		@include vendor('background-image', 'url("../images/IndyCircle.jpg")');
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
@@ -17,9 +17,9 @@
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 100vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
+		// max-height: 32em;
 		min-height: 22em;
 		position: relative;
 		top: -3.25em;
@@ -95,9 +95,8 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 100vh;
 			min-height: 30em;
-			max-height: 50em;
 
 			&.alt {
 				opacity: 0.75;
@@ -129,7 +128,7 @@
 
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
-			height: auto;
+			height: 100vh;
 			margin-bottom: -2.75em;
 			max-height: none;
 			min-height: 0;
@@ -151,7 +150,7 @@
 			}
 
 			&.major {
-				height: auto;
+				height: 100vh;
 				min-height: 0;
 				max-height: none;
 			}
