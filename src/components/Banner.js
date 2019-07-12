@@ -1,6 +1,13 @@
 import React from 'react'
 import logo from '../assets/images/zealous-logo.png'
 
+const scrollToContact = () => {
+  window.scrollTo({
+    bottom: 0,
+    behavior: 'smooth',
+  })
+}
+
 const Banner = () => (
   <section id="banner" className="major">
     <div className="inner">
@@ -16,7 +23,11 @@ const Banner = () => (
         </p>
         <ul className="actions">
           <li>
-            <a href="#contact" className="button next scrolly">
+            <a
+              href="#contact"
+              onClick={scrollToContact}
+              className="button next scrolly"
+            >
               Get in Contact
             </a>
           </li>

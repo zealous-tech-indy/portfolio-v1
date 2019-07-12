@@ -12,30 +12,19 @@ const Menu = ({ onToggleMenu }) => (
           </Link>
         </li>
         <li>
-          <Link onClick={onToggleMenu} to="/landing">
-            Landing
-          </Link>
-        </li>
-        <li>
-          <Link onClick={onToggleMenu} to="/generic">
-            Generic
-          </Link>
-        </li>
-        <li>
-          <Link onClick={onToggleMenu} to="/elements">
-            Elements
+          <Link onClick={onToggleMenu} to="/fuzzy-bear-daycare">
+            Fuzzy Bear Daycare
           </Link>
         </li>
       </ul>
       <ul className="actions vertical">
         <li>
-          <a href="#" className="button special fit">
-            Get Started
-          </a>
-        </li>
-        <li>
-          <a href="#" className="button fit">
-            Log In
+          <a
+            href="#contact"
+            className="button special fit"
+            onClick={onToggleMenu}
+          >
+            Get in Contact
           </a>
         </li>
       </ul>

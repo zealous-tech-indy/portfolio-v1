@@ -53,6 +53,19 @@
 			}
 			.avatar-name {
 				margin-top: 0.75em;
+				margin-bottom: 0px;
+			}
+			.dev-title {
+				margin-bottom: 15px;
+				color: #6fc3dfbf;
+			}
+		}
+		@include breakpoint(medium) {
+			&.fit {
+				.avatar-wrapper {
+					padding: 2em 1em 0 1em;
+				}
+				margin: 0;
 			}
 		}
 

@@ -9,10 +9,26 @@ const Contact = () => (
           <div className="field half first">
             <label htmlFor="name">
               Name
-              <input type="text" name="name" id="name" />
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="First Last"
+              />
             </label>
           </div>
           <div className="field half">
+            <label htmlFor="phone">
+              Phone
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="317-123-4567"
+              />
+            </label>
+          </div>
+          <div className="field">
             <label htmlFor="email">
               Email
               <input type="text" name="email" id="email" />
@@ -48,10 +64,10 @@ const Contact = () => (
           <div className="contact-method">
             <span className="icon alt fa-phone" />
             <h3>Phone</h3>
-            <span>(317) 123-4567</span>
+            <span>(317) 426-1771</span>
           </div>
         </section>
-        <section>
+        {/* <section>
           <div className="contact-method">
             <span className="icon alt fa-home" />
             <h3>Address</h3>
@@ -63,7 +79,7 @@ const Contact = () => (
               United States of America
             </span>
           </div>
-        </section>
+        </section> */}
       </section>
     </div>
   </section>
