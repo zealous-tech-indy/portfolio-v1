@@ -7,6 +7,11 @@ import Menu from './Menu'
 import Contact from './Contact'
 import Footer from './Footer'
 
+if (typeof window !== 'undefined') {
+  // eslint-disable-next-line global-require
+  require('smooth-scroll')('a[href*="#"]')
+}
+
 class Layout extends React.Component {
   constructor(props) {
     super(props)

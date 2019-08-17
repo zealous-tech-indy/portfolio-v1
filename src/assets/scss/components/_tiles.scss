@@ -7,8 +7,8 @@
 /* Tiles */
 
 	.tiles {
-		@include vendor('display', 'flex');
-		@include vendor('flex-wrap', 'wrap');
+		// @include vendor('display', 'flex');
+		// @include vendor('flex-wrap', 'wrap');
 		border-top: 0 !important;
 
 		& + * {
@@ -34,7 +34,7 @@
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			// width: 40%;
 
 			.image {
 				display: none;
@@ -102,10 +102,10 @@
 				opacity: 0;
 			}
 
-			&:nth-child(4n - 1),
-			&:nth-child(4n - 2) {
-				width: 60%;
-			}
+			// &:nth-child(4n - 1),
+			// &:nth-child(4n - 2) {
+			// 	width: 60%;
+			// }
 
 			&:nth-child(6n - 5) {
 				&:before {
@@ -155,7 +155,7 @@
 
 		@include breakpoint(medium) {
 			article {
-				width: 50% !important;
+				// width: 50% !important;
 			}
 		}
 

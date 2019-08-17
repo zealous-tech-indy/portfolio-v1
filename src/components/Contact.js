@@ -9,23 +9,13 @@ const Contact = () => (
           <div className="field half first">
             <label htmlFor="name">
               Name
-              <input
-                type="text"
-                name="name"
-                id="name"
-                placeholder="First Last"
-              />
+              <input type="text" name="name" id="name" />
             </label>
           </div>
           <div className="field half">
             <label htmlFor="phone">
               Phone
-              <input
-                type="tel"
-                name="phone"
-                id="phone"
-                placeholder="317-123-4567"
-              />
+              <input type="tel" name="phone" id="phone" />
             </label>
           </div>
           <div className="field">

@@ -4,12 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
+import logo from '../assets/images/zealous-logo.png'
 import fuzzyBear from '../assets/images/fuzzy_bear2.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
 import {
   henok,
   iesha,
@@ -250,14 +246,19 @@ class HomeIndex extends React.Component {
             </div>
           </div>
           <section id="one" className="tiles">
-            <article style={{ backgroundImage: `url(${fuzzyBear})` }}>
+            <article
+              style={{
+                backgroundImage: `url(${fuzzyBear})`,
+                backgroundPosition: 'center 70%',
+              }}
+            >
               <header className="major">
-                <h3>Fuzzy Bear Daycare</h3>
-                <p>Custom Website</p>
+                <h3>Fuzzy Bear Ministry</h3>
+                <p>Custom Daycare Website</p>
               </header>
               <Link to="/fuzzy-bear-daycare" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic02})` }}>
+            {/* <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Tempus</h3>
                 <p>feugiat amet tempus</p>
@@ -291,14 +292,23 @@ class HomeIndex extends React.Component {
                 <p>Feugiat amet tempus</p>
               </header>
               <Link to="/landing" className="link primary" />
-            </article>
+            </article> */}
           </section>
           <section id="two">
-            <div className="inner">
-              <header className="major">
-                <h2>Have a project in mind?</h2>
-              </header>
-              <p>Let's chat! We want to bring your ideas to life.</p>
+            <div className="inner" style={{ display: 'flex' }}>
+              <div>
+                <img
+                  src={logo}
+                  alt="Zealous Logo"
+                  style={{ height: '7em', marginRight: '2em' }}
+                />
+              </div>
+              <div>
+                <header className="major">
+                  <h2 className="italics">Have a project in mind?</h2>
+                </header>
+                <p>Let's chat! We want to bring your ideas to life.</p>
+              </div>
             </div>
           </section>
         </div>
