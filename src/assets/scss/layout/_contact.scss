@@ -6,7 +6,7 @@
 
 /* Contact */
 
-	#contact {
+	#contact-form {
 		border-bottom: solid 1px _palette(border);
 		overflow-x: hidden;
 
@@ -89,6 +89,34 @@
 				> :nth-child(2n - 1) {
 					@include padding(3em, 0, (0, 0, 0, 0));
 				}
+			}
+		}
+	}
+
+	#contact {
+		background-color: #2a2e4a;
+		img {
+			height: 7em;
+			margin-right: 2em;
+			margin-top: -0.5em;
+		}
+		
+		@include breakpoint(small) {
+			img {
+				margin-right: 1em;
+				height: 5em;
+			}
+			
+			h2 {
+				font-size: 1.25em;
+			}
+	
+			h2::after {
+				width: 94%;
+			}
+
+			p {
+				font-size: 0.9em;
 			}
 		}
 	}

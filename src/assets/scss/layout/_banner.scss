@@ -12,17 +12,29 @@
 		@include vendor('display', 'flex');
 		@include padding(4em, 0, (2em, 0, 0, 0));
 		background-attachment: fixed;
-		background-position: center;
+		background-position: center 82%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		border-bottom: 0 !important;
 		cursor: default;
-		height: 60vh;
+		height: 100vh;
 		margin-bottom: -3.25em;
-		max-height: 32em;
-		min-height: 22em;
 		position: relative;
 		top: -3.25em;
+
+		&.fuzzy-bear-page {
+			@include vendor('background-image', 'url("../images/fuzzy_chalk.jpg")');
+			background-position: center 22%;
+			height: 60vh;
+			max-height: 32em;
+			min-height: 22em;
+		}
+
+		div.team-arrow {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
 
 		&:after {
 			@include vendor('transition', 'opacity #{_duration(banner)} ease');
@@ -95,9 +107,9 @@
 		}
 
 		&.major {
-			height: 75vh;
-			min-height: 30em;
-			max-height: 50em;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
 
 			&.alt {
 				opacity: 0.75;
@@ -125,15 +137,18 @@
 
 		@include breakpoint(large) {
 			background-attachment: scroll;
+			background-position: center 70%;
+		}
+
+		@include breakpoint(medium) {
+			background-position: center 68%;
 		}
 
 		@include breakpoint(small) {
 			@include padding(3em, 0, (2em, 0, 0, 0));
-			height: auto;
-			margin-bottom: -2.75em;
-			max-height: none;
-			min-height: 0;
+			// margin-bottom: -2.75em;
 			top: -2.75em;
+			background-position: center 68%;
 
 			h1 {
 				font-size: 2em;
@@ -148,12 +163,6 @@
 						margin-bottom: _size(element-margin);
 					}
 				}
-			}
-
-			&.major {
-				height: auto;
-				min-height: 0;
-				max-height: none;
 			}
 		}
 

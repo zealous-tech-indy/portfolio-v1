@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import logo from '../assets/images/zealous-logo.png'
 import fuzzyBear from '../assets/images/fuzzy_bear2.jpg'
+import coffee from '../assets/images/coffee.jpg'
 import {
   henok,
   iesha,
@@ -13,7 +13,7 @@ import {
   jon,
   manasa,
   mason,
-} from '../assets/images/avatars/index'
+} from '../assets/images/avatars'
 
 class HomeIndex extends React.Component {
   render() {
@@ -38,7 +38,7 @@ class HomeIndex extends React.Component {
         <Banner />
 
         <div id="main">
-          <h2 style={{ padding: '1em 0 0 3.5em' }}>Meet the Team</h2>
+          <h2 className="section-heading">Meet the Team</h2>
           <div className="box alt">
             <div className="grid-wrapper">
               <div className="col-4">
@@ -245,6 +245,7 @@ class HomeIndex extends React.Component {
               </div>
             </div>
           </div>
+          <h2 className="section-heading">Our Work</h2>
           <section id="one" className="tiles">
             <article
               style={{
@@ -254,62 +255,19 @@ class HomeIndex extends React.Component {
             >
               <header className="major">
                 <h3>Fuzzy Bear Ministry</h3>
-                <p>Custom Daycare Website</p>
+                <p>Custom built daycare website</p>
               </header>
               <Link to="/fuzzy-bear-daycare" className="link primary" />
             </article>
-            {/* <article style={{ backgroundImage: `url(${pic02})` }}>
+            <article
+              id="more-soon"
+              style={{ backgroundImage: `url(${coffee})` }}
+            >
               <header className="major">
-                <h3>Tempus</h3>
-                <p>feugiat amet tempus</p>
+                <h3>More coming soon!</h3>
+                <p>We are zealous about tech</p>
               </header>
-              <Link to="/landing" className="link primary" />
             </article>
-            <article style={{ backgroundImage: `url(${pic03})` }}>
-              <header className="major">
-                <h3>Magna</h3>
-                <p>Lorem etiam nullam</p>
-              </header>
-              <Link to="/landing" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${pic04})` }}>
-              <header className="major">
-                <h3>Ipsum</h3>
-                <p>Nisl sed aliquam</p>
-              </header>
-              <Link to="/landing" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${pic05})` }}>
-              <header className="major">
-                <h3>Consequat</h3>
-                <p>Ipsum dolor sit amet</p>
-              </header>
-              <Link to="/landing" className="link primary" />
-            </article>
-            <article style={{ backgroundImage: `url(${pic06})` }}>
-              <header className="major">
-                <h3>Etiam</h3>
-                <p>Feugiat amet tempus</p>
-              </header>
-              <Link to="/landing" className="link primary" />
-            </article> */}
-          </section>
-          <section id="two">
-            <div className="inner" style={{ display: 'flex' }}>
-              <div>
-                <img
-                  src={logo}
-                  alt="Zealous Logo"
-                  style={{ height: '7em', marginRight: '2em' }}
-                />
-              </div>
-              <div>
-                <header className="major">
-                  <h2 className="italics">Have a project in mind?</h2>
-                </header>
-                <p>Let's chat! We want to bring your ideas to life.</p>
-              </div>
-            </div>
           </section>
         </div>
       </Layout>

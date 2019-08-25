@@ -23,4 +23,27 @@
 			background-color: transparent;
 			border-bottom: solid 1px _palette(border);
 		}
+
+		h2.section-heading {
+			padding: 0.8em 0 0.8em 3em;
+			margin-bottom: 0;
+			background-color: #1c2038a8;
+			font-style: italic;
+			font-size: 2em;
+			border-left: 2px solid white;
+		}
+
+		@include breakpoint(small) {
+
+			h2.section-heading {
+				padding: 0.8em 0 0.8em 1.5em;
+				font-size: 1.75em;
+			}
+		}
+	}
+
+	@include breakpoint(small) {
+		#main {
+			margin-top: 0.5em;
+		}
 	}

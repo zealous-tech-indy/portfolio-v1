@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import bus from '../assets/images/bus2.jpg'
+import daycare from '../assets/images/daycare.jpg'
+import daycare2 from '../assets/images/daycare2.jpg'
 
 const Landing = () => (
   <Layout>
@@ -16,9 +16,10 @@ const Landing = () => (
     </Helmet>
 
     <BannerLanding
-      title="Fuzzy Bear Daycare"
-      desc1="Text about the project"
-      desc2="another statement"
+      title="Fuzzy Bear Ministry"
+      desc1="Custom Built Daycare Website"
+      desc2="& Employee Management Tool"
+      page="fuzzy-bear-page"
     />
 
     <div id="main">
@@ -41,7 +42,7 @@ const Landing = () => (
       <section id="two" className="spotlights">
         <section>
           <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
+            <img src={daycare} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -67,7 +68,7 @@ const Landing = () => (
         </section>
         <section>
           <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
+            <img src={bus} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -93,7 +94,7 @@ const Landing = () => (
         </section>
         <section>
           <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
+            <img src={daycare2} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
@@ -110,7 +111,7 @@ const Landing = () => (
               <ul className="actions">
                 <li>
                   <Link to="/generic" className="button">
-                    Learn more
+                    View website
                   </Link>
                 </li>
               </ul>

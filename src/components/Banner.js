@@ -22,6 +22,11 @@ const Banner = () => (
         </ul>
       </div>
     </div>
+    <div className="team-arrow">
+      <Link to="/#main" className="button small icon fa-angle-double-down">
+        Team
+      </Link>
+    </div>
   </section>
 )
 
