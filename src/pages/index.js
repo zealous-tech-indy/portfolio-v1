@@ -37,7 +37,7 @@ class HomeIndex extends React.Component {
 
         <Banner />
 
-        <div id="main">
+        <div id="team">
           <h2 className="section-heading">Meet the Team</h2>
           <div className="box alt">
             <div className="grid-wrapper">
