@@ -16,7 +16,7 @@ const Landing = () => (
 
     <BannerLanding
       title="Fuzzy Bear Ministry"
-      desc1="Custom Built Daycare Website"
+      desc1="Custom Built Daycare Website&nbsp;"
       desc2="& Employee Management Tool"
       page="fuzzy-bear-page"
     />

@@ -11,7 +11,7 @@ const Banner = () => (
         <div className="content">
           <p>
             Indy based Dev Shop specializing in custom solutions for our
-            clients.
+            clients.&nbsp;
             <br />
             Founded, owned, and operated by a team of local developers.
           </p>
