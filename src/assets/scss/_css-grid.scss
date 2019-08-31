@@ -4,51 +4,57 @@
 	margin-bottom: 2em;
 }
 
+
 @media screen and (max-width: 980px) {
 	.grid-wrapper {
 		display: grid;
-		grid-gap: 0 1em;
 		grid-template-columns: repeat(12, 1fr);
 		margin: 0 auto;
 		width: 100%;
 	}
 	.col-4 {
 		grid-column: span 6;
+		padding: .5em 2em 0.5em 2em;
+		border-right: solid 1px _palette(border);
+		border-bottom: solid 1px _palette(border);
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.col-4 {
+		padding: 0 .75em;
 	}
 }
 
 @media screen and (min-width: 981px) {
-
+	
 	.grid-wrapper {
 		display: grid;
-		grid-gap: 0 2.25em;
 		grid-template-columns: repeat(12, 1fr);
 		margin: 0 auto;
 		width: 100%;
 	}
-
+	
 	/* Generate Columns 1 through 12 */
-	/*
-		Example:
-		.col-6 { grid-column: span 6; }
-	*/
-
 	$columns: 12;
 	@mixin col-x-list {
-	  	@for $i from 1 through $columns {
-	      	.col-#{$i} {
-	      		grid-column: span #{$i}
-	      	}
-	  	}
+		@for $i from 1 through $columns {
+			.col-#{$i} {
+				grid-column: span #{$i};
+				padding: 2.75em 3em 0.5em 3em;
+				border-right: solid 1px _palette(border);
+				border-bottom: solid 1px _palette(border);
+			}
+
+			span.image.fit {
+				margin: 0;
+
+				div.avatar-wrapper {
+					padding: 0;
+				}
+			}
+		}
 	}
 	@include col-x-list;
-
-}
-
-@media screen and (min-width: 1141px) {
-
-	// .grid-wrapper {
-	// 	grid-gap: 0 3em;
-	// }
-
+	
 }
