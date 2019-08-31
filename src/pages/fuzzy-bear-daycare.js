@@ -7,7 +7,7 @@ import bus from '../assets/images/bus2.jpg'
 import daycare from '../assets/images/daycare.jpg'
 import daycare2 from '../assets/images/daycare2.jpg'
 
-const Landing = () => (
+const FuzzyBearPage = () => (
   <Layout>
     <Helmet>
       <title>Fuzzy Bear Daycare</title>
@@ -25,7 +25,7 @@ const Landing = () => (
       <section id="one">
         <div className="inner">
           <header className="major">
-            <h2>Expanding a Non-Profit's Reach</h2>
+            <h2>Expanding a Nonprofit's Reach</h2>
           </header>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
@@ -107,4 +107,4 @@ const Landing = () => (
   </Layout>
 )
 
-export default Landing
+export default FuzzyBearPage

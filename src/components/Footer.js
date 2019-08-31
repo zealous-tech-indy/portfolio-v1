@@ -14,7 +14,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com/zealoustech/"
+            href="https://facebook.com/zealoustech/"
             className="icon alt fa-facebook"
           >
             <span className="label">Facebook</span>
@@ -22,7 +22,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.instagram.com/zealoustechindy/"
+            href="https://instagram.com/zealoustechindy/"
             className="icon alt fa-instagram"
           >
             <span className="label">Instagram</span>

@@ -15,7 +15,7 @@ import {
   mason,
 } from '../assets/images/avatars'
 
-class HomeIndex extends React.Component {
+class HomePage extends React.Component {
   render() {
     return (
       <Layout>
@@ -30,7 +30,7 @@ class HomeIndex extends React.Component {
             {
               name: 'keywords',
               content:
-                'zealous, tech, indy, small business, freelance, software',
+                'zealous, tech, indy, small business, freelance, software, development, web',
             },
           ]}
         />
@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
                       alt="Henok"
                     />
                     <h3 className="avatar-name">Henok Alem</h3>
-                    <h5 className="dev-title">DEVELOPER</h5>
+                    <h5 className="dev-title">Developer</h5>
                     <ul className="icons">
                       <li>
                         <a
@@ -84,7 +84,7 @@ class HomeIndex extends React.Component {
                     />
                     <h3 className="avatar-name">Iesha Duff</h3>
                     <h5 className="dev-title" style={{ color: '#8d82c4' }}>
-                      DEVELOPER
+                      Developer
                     </h5>
                     <ul className="icons">
                       <li>
@@ -118,7 +118,7 @@ class HomeIndex extends React.Component {
                     />
                     <h3 className="avatar-name">Jordan Mannfeld</h3>
                     <h5 className="dev-title" style={{ color: '#ec8d81' }}>
-                      DEVELOPER
+                      Developer
                     </h5>
                     <ul className="icons">
                       <li>
@@ -152,7 +152,7 @@ class HomeIndex extends React.Component {
                     />
                     <h3 className="avatar-name">Jon Jeffries</h3>
                     <h5 className="dev-title" style={{ color: '#e7b788' }}>
-                      DEVELOPER
+                      Developer
                     </h5>
                     <ul className="icons">
                       <li>
@@ -186,7 +186,7 @@ class HomeIndex extends React.Component {
                     />
                     <h3 className="avatar-name">Manasa Patibandla</h3>
                     <h5 className="dev-title" style={{ color: '#8ea9e8' }}>
-                      DEVELOPER
+                      Developer
                     </h5>
                     <ul className="icons">
                       <li>
@@ -220,7 +220,7 @@ class HomeIndex extends React.Component {
                     />
                     <h3 className="avatar-name">Mason Seiler</h3>
                     <h5 className="dev-title" style={{ color: '#87c5a4' }}>
-                      DEVELOPER
+                      Developer
                     </h5>
                     <ul className="icons">
                       <li>
@@ -261,7 +261,10 @@ class HomeIndex extends React.Component {
             </article>
             <article
               id="more-soon"
-              style={{ backgroundImage: `url(${coffee})` }}
+              style={{
+                backgroundImage: `url(${coffee})`,
+                backgroundPosition: 'center 54%',
+              }}
             >
               <header className="major">
                 <h3>More coming soon!</h3>
@@ -275,4 +278,4 @@ class HomeIndex extends React.Component {
   }
 }
 
-export default HomeIndex
+export default HomePage
