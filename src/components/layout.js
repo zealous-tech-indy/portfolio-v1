@@ -35,19 +35,19 @@ class Layout extends React.Component {
   }
 
   handleToggleMenu() {
-    this.setState({
-      isMenuVisible: !this.state.isMenuVisible,
-    })
+    this.setState(prevState => ({
+      ...prevState,
+      isMenuVisible: !prevState.isMenuVisible,
+    }))
   }
 
   render() {
     const { children } = this.props
+    const { loading, isMenuVisible } = this.state
 
     return (
       <div
-        className={`body ${this.state.loading} ${
-          this.state.isMenuVisible ? 'is-menu-visible' : ''
-        }`}
+        className={`body ${loading} ${isMenuVisible ? 'is-menu-visible' : ''}`}
       >
         <div id="wrapper">
           <Header onToggleMenu={this.handleToggleMenu} />
@@ -59,6 +59,10 @@ class Layout extends React.Component {
       </div>
     )
   }
+}
+
+Layout.propTypes = {
+  children: PropTypes.any,
 }
 
 export default Layout

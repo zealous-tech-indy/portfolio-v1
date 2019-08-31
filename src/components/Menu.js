@@ -29,7 +29,13 @@ const Menu = ({ onToggleMenu }) => (
         </li>
       </ul>
     </div>
-    <a className="close" onClick={onToggleMenu} href="javascript:;">
+    <a
+      className="close"
+      onClick={onToggleMenu}
+      onKeyPress={onToggleMenu}
+      role="button"
+      tabIndex={-1}
+    >
       Close
     </a>
   </nav>

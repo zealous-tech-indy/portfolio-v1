@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 const BannerLanding = props => {
   const { title, desc1, desc2, page } = props
@@ -18,6 +19,13 @@ const BannerLanding = props => {
       </div>
     </section>
   )
+}
+
+BannerLanding.propTypes = {
+  title: PropTypes.string,
+  desc1: PropTypes.string,
+  desc2: PropTypes.string,
+  page: PropTypes.string,
 }
 
 export default BannerLanding
